@@ -27,7 +27,7 @@ public class lista7 {
 		System.out.println("qual a quantidade comprada: ");
 		int quantidade = scanner.nextInt(valor);
 		if(valor * quantidade > 200 && quantidade > 5) {
-			System.out.println("você recebeu 15% de desconto");
+		System.out.println("você recebeu 15% de desconto");
 		}else {
 			System.out.println("sem desconto");
 		}
