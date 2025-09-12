@@ -44,9 +44,26 @@ public class While2 {
 		 }
 		 
 		 int nnnnk = 1;
+		 int aaaaa = 1;
+		 int chega = 0;
 		 while(nnnnk <= 5) {
-			 System.out.println(nnnnk);
-			 nnnnk++;
+		 aaaaa = chega + aaaaa;
+		 System.out.println(aaaaa);
+		 nnnnk++;
+		 aaaaa++;
+		 
+		 }
+		 
+		
+		 int desgraca = 1;
+		 int manoo;
+		 int cabo;
+		 System.out.println("diga um numero ");
+		 manoo = scanner.nextInt();
+		 while (desgraca <= 10) {
+			 cabo = manoo * desgraca;
+			 System.out.println(cabo);
+			 desgraca++;
 		 }
 		
 	}
