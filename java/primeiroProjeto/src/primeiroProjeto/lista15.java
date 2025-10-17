@@ -32,6 +32,8 @@ public class lista15 {
 		for(int n = 6; n >= 0; n--) {
 			System.out.println(valores[n]);
 		}
+		
+		
 
 	}
 
